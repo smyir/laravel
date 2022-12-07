@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 
-class SessionsController extends Controller {
+class LoginController extends Controller {
     
     public function create() {
         
