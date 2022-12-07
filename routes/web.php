@@ -30,7 +30,4 @@ Route::get('/logout', [LoginController::class, 'destroy'])
     ->name('login.destroy');
 
 
-Route::get('/admin', [AdminController::class, 'index'])
-    ->middleware('auth.admin')
-    ->name('admin.index');
 
